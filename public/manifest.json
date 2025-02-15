@@ -1,0 +1,14 @@
+{
+  "name": "ALFA-PAY",
+  "short_name": "ALFA-PAY",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#f9dedc",
+  "background_color": "#000000",
+  "display": "standalone"
+}

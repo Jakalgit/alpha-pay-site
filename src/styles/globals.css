@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: black;
+
+  --golos-text-font: "Golos Text";
+  --geologica-text-font: "Geologica";
+  --lexend-giga-text-font: "Lexend Giga";
+
+  --purple-color-1: #EADDFF;
+  --purple-color-2: #A49BB2;
+  --purple-color-3: #15141A;
+  --purple-color-4: #54515D;
+  --purple-color-5: #39363F;
+  --purple-color-6: #433C41;
+  --purple-color-7: #332237;
+  --purple-color-8: #58475F;
+  --foreground-color: #0D0C0F;
+
+  --gold-color-1: #F9DEDC;
+  --gold-color-2: #87797B;
+}
+
+body {
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+.golos-text {
+  font-family: var(--golos-text-font), serif;
+}
+
+.geologica {
+  font-family: var(--geologica-text-font), serif;
+}
+
+.lexend-giga {
+  font-family: var(--lexend-giga-text-font), serif;
+}
+
+.foreground-color {
+  background: #0D0C0F;
+}

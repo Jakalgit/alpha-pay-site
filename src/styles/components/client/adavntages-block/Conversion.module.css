@@ -1,0 +1,15 @@
+
+.left, .right {
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    .left, .right {
+        flex: auto;
+    }
+
+    .descriptionBlock {
+        flex-direction: column;
+    }
+}
+

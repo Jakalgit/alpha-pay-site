@@ -1,0 +1,55 @@
+.largeText {
+    font-size: 38px;
+}
+
+.mediumText {
+    font-size: 18px;
+}
+
+.sectionName {
+    font-size: 18px;
+}
+
+h2 {
+    scroll-margin-top: 60px;
+}
+
+@media (max-width: 1199px) {
+    .largeText {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    .largeText {
+        font-size: 32px;
+    }
+
+    .mediumText {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .largeText {
+        font-size: 28px;
+    }
+
+    .mediumText {
+        font-size: 16px;
+    }
+
+    .sectionName {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .largeText {
+        font-size: 24px;
+    }
+
+    .mediumText {
+        font-size: 14px;
+    }
+}
